@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "AMT MAIN SITE",
+    "name": "AMT MAIN SITE-clone",
     "currentPage": "index.html",
     "theme": {
       "name": "default",
@@ -13,7 +13,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.7.2",
-    "uniqCompNum": 46,
+    "uniqCompNum": 41,
     "versionPublish": "4.7.2",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -30,7 +30,7 @@
         "title": "Home",
         "meta_descr": "",
         "header_custom": "",
-        "footer_custom": "<!-- WhatsHelp.io widget -->\n<script type=\"text/javascript\">\n(function () {\nvar options = {\nwhatsapp: \"+60148630141\", // WhatsApp number\ncall_to_action: \"Whatsapp us now\", // Call to action\nposition: \"right\", // Position may be 'right' or 'left'\n};\nvar proto = document.location.protocol, host = \"whatshelp.io\", url = proto + \"//static.\" + host;\nvar s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';\ns.onload = function () { WhWidgetSendButton.init(host, proto, options); };\nvar x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);\n})();\n</script>\n<!-- /WhatsHelp.io widget -->\n<!--Start of Tawk.to Script-->\n<script type=\"text/javascript\">\nvar Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();\n(function(){\nvar s1=document.createElement(\"script\"),s0=document.getElementsByTagName(\"script\")[0];\ns1.async=true;\ns1.src='https://embed.tawk.to/5b04a9f5d0f6723da57ec812/default';\ns1.charset='UTF-8';\ns1.setAttribute('crossorigin','*');\ns0.parentNode.insertBefore(s1,s0);\n})();\n</script>\n<!--End of Tawk.to Script-->",
+        "footer_custom": "",
         "html_before": ""
       },
       "components": [
@@ -58,7 +58,7 @@
             "hamburgerColor": "#c1c1c1"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">ABOUT</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">CONTACT</a></li> ",
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">CARLIST</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\" data-toolbar=\"-mbrBtnMove\">TRAVEL PACKAGE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">TERM AND CONDITION</a></li> ",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">CARLIST</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">TRAVEL PACKAGE</a></li> ",
           "logo": {
             "image": {
               "active": true,
@@ -104,8 +104,8 @@
             "overlayOpacity": 0.5
           },
           "title": "TRAVELLING TO KUCHING, SARAWAK",
-          "text": "WE ARE YOUR TRANSPORTATION PARTNER HERE IN SARAWAK<br>(CAR RENTAL)<br>(CAR RENTAL+DRIVER)<br>(HOLIDAY TOUR PACKAGE)",
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">CAR RENTAL LIST</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-success\" href=\"page4.html\" data-toolbar=\"-mbrBtnMove\">TRAVEL PACKAGE</a>  ",
+          "text": "WE ARE YOUR TRANSPORTATION PARTNER HERE IN SARAWAK",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">SELF-DRIVE CAR LIST</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"page4.html\" data-toolbar=\"-mbrBtnMove\">TRAVEL PACKAGE</a>  ",
           "_tags": [
             "Theme"
           ],
@@ -115,25 +115,106 @@
           "_customCSS": ""
         },
         {
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
           "_params": {
+            "autoplay": true,
+            "fullScreen": true,
             "paddingTop": 3,
             "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#f0f0f0",
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "showBullets": true,
+            "bgColor": "#ffffff",
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/mbr-2-1620x1080.jpg",
+                "active": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "title": "<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; AMT &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;SARAWAK&nbsp;\n<div>&nbsp; &nbsp; &nbsp; WELCOME YOU</div>",
+                "contentAlign": "right",
+                "text": "<i><b><br></b></i><br><b><i>SALAM</i> SEJAHTERA.\n<br>AMT Transport adalah sebuah Syarikat Berdaftar Milik Penuh Bumiputera. Kami menjalankan perkhidmatan Kereta Sewa di area Kuching dan Kota Samarahan. Alamat operasi kami di Lot 114 Lorong 22MB2B\n<br></b><b>Desa Ilmu Phase 25,\nKota Samarahan, Sarawak<br></b>\n<br><br>",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Whatsapp</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Website</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/mbr-1620x1080.jpg",
+                "active": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "title": "Slide 2",
+                "contentAlign": "left",
+                "text": "<b>Matlamat utama kami adalah memberi khidmat yang terbaik dengan kadar sewaan yang pasti mampu bagi semua golongan. Kami juga sentiasa memastikan keadaan kereta yang anda sewa dalam keadaan bersih, selesa dan selamat untuk pemanduan. Malah proses sewaan dengan kami juga berjalan dengan mudah dan cepat. \n</b><br>\n<br><br>",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/mbr-3-1620x1080.jpg",
+                "active": true,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "title": "Hubungi Kami Sekarang",
+                "contentAlign": "center",
+                "text": "<b>Kami amat berbesar hati dan mengalu-alukan anda untuk menggunakan perkhidmatan kami. \n<br>\n<br>Sila hubungi kami di talian berikut <br>untuk membuat tempahan. \n<br>Tel : 014-8630141 \n<br>Jumpa di Kuching.</b><br><b>:-)</b><br><b><br></b>",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ]
           },
-          "text": "FOLLOW US",
-          "icons": " <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-facebook\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-googleplus\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><i class=\"socicon socicon-googleplus\"></i></a>  <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-instagram\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-instagram\"></i></a>      ",
+          "articleLayout": false,
           "_tags": [
             "Theme"
           ],
-          "_name": "social-buttons2",
-          "_anchor": "social-buttons2-16"
+          "_name": "slider",
+          "_anchor": "slider-6",
+          "_styles": {
+            "H1": {
+              "color": "#000000",
+              "text-align": "right",
+              "font-size": "60px"
+            },
+            "P": {
+              "text-align": "left",
+              "color": "#2969b0"
+            },
+            "B": {
+              "color": "#000000",
+              "font-size": "23px",
+              "font-family": "'PT Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans:400,700"
+            }
+          }
+        },
+        {
+          "_params": {
+            "token": "5342036335.727bfe1.262162787c3249c6b64379cb6945121e",
+            "showTitle": true,
+            "layoutGridRadio": true,
+            "imagesPerRowGrid": 4,
+            "rows": 2,
+            "showMoreButton": true,
+            "layoutSliderRadio": false,
+            "imagesPerRowSlider": "5",
+            "spacing": 5,
+            "fullWidth": false,
+            "paddingTop": "2",
+            "paddingBottom": 1,
+            "bgColorRadio": false,
+            "bgColor": "#fafafa",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/instagram-background.jpg",
+            "overlay": false,
+            "overlayColor": "#efefef",
+            "overlayOpacity": 0.6
+          },
+          "title": "Instagram Feed",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-primary display-4\" href=\"#\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-mbrLink\">Show more</a>",
+          "display2": "display-2",
+          "display4": "display-4",
+          "alias": "instagram-feed",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "instagram-feed-block",
+          "_anchor": "instagram-feed-block-b"
         },
         {
           "_params": {
@@ -144,13 +225,13 @@
             "bgImage": "images/bg3.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#c1c1c1",
+            "bgColor": "#efefef",
             "overlay": false,
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
           "title": "CONTACT FORM",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\">CONTACT US</a>",
           "form": {
             "action": "afdalhaziqms@gmail.com",
             "alerts": {
@@ -214,7 +295,7 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/13221164-1010315769036164-4635766494822955108-o-265x208.jpg",
+              "src": "@PROJECT_PATH@/assets/images/c4-588734aa6a22dheader.png-265x261.jpg",
               "class": "mbr-contacts__img mbr-contacts__img--left",
               "width": 265,
               "active": true,
@@ -243,8 +324,7 @@
       "settings": {
         "meta_descr": "Web Creator Description",
         "title": "ABOUT",
-        "order": 5,
-        "footer_custom": "<!-- WhatsHelp.io widget -->\n<script type=\"text/javascript\">\n(function () {\nvar options = {\nwhatsapp: \"+60148630141\", // WhatsApp number\ncall_to_action: \"Whatsapp us now\", // Call to action\nposition: \"right\", // Position may be 'right' or 'left'\n};\nvar proto = document.location.protocol, host = \"whatshelp.io\", url = proto + \"//static.\" + host;\nvar s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';\ns.onload = function () { WhWidgetSendButton.init(host, proto, options); };\nvar x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);\n})();\n</script>\n<!-- /WhatsHelp.io widget -->\n<!--Start of Tawk.to Script-->\n<script type=\"text/javascript\">\nvar Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();\n(function(){\nvar s1=document.createElement(\"script\"),s0=document.getElementsByTagName(\"script\")[0];\ns1.async=true;\ns1.src='https://embed.tawk.to/5b04a9f5d0f6723da57ec812/default';\ns1.charset='UTF-8';\ns1.setAttribute('crossorigin','*');\ns0.parentNode.insertBefore(s1,s0);\n})();\n</script>\n<!--End of Tawk.to Script-->"
+        "order": 5
       },
       "components": [
         {
@@ -271,7 +351,7 @@
             "hamburgerColor": "#c1c1c1"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">ABOUT</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">CONTACT</a></li> ",
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">CARLIST</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\" data-toolbar=\"-mbrBtnMove\">TRAVEL PACKAGE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">TERM AND CONDITION</a></li> ",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">CARLIST</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">TRAVEL PACKAGE</a></li> ",
           "logo": {
             "image": {
               "active": true,
@@ -311,10 +391,10 @@
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
-                "title": "AMT SARAWAK<div>WELCOME YOU</div>",
+                "title": "<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; AMT &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;SARAWAK<div>&nbsp; &nbsp; &nbsp; WELCOME YOU</div>",
                 "contentAlign": "right",
-                "text": "<b>SALAM SEJAHTERA KEPADA SEMUA PELANGGAN.\n</b><br><b>SIAPA KAMI?</b><br><br><b>**Kami menjalankan perkhidmatan Kereta Sewa di area Kuching dan Kota Samarahan.</b><br><b>**AMT Transport adalah sebuah Syarikat Berdaftar Milik Penuh Bumiputera.&nbsp;</b><br><b>**Matlamat kami hanya satu, menyelesaikan masalah transportatasi anda di Kuching-Samarahan, Sarawak.<br></b><br>",
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CAR LIST</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">TRAVEL PACKAGE</a>",
+                "text": "<b>SALAM SEJAHTERA KEPADA SEMUA PELANGGAN.\n</b><br><b>SIAPA KAMI?</b><br><br><b>**Kami menjalankan perkhidmatan Kereta Sewa di area Kuching dan Kota Samarahan.</b><br><br><b>**AMT Transport adalah sebuah Syarikat Berdaftar Milik Penuh Bumiputera.&nbsp;</b><br><br><b>**Matlamat kami hanya satu, menyelesaikan masalah transportatasi anda di Kuching-Samarahan, Sarawak.<br><br></b>\n<br><br>",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Whatsapp</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Website</a>",
                 "overlay": true,
                 "overlayOpacity": "0.7",
                 "overlayColor": "#ededed"
@@ -327,24 +407,52 @@
                 "showTitle": true,
                 "title": "MATLAMAT AMT",
                 "contentAlign": "right",
-                "text": "Matlamat utama kami adalah memberi khidmat yang terbaik dengan kadar sewaan yang pasti mampu bagi semua golongan. Kami juga sentiasa memastikan keadaan kereta yang anda sewa dalam keadaan bersih, selesa dan selamat untuk pemanduan. Malah proses sewaan dengan kami juga berjalan dengan mudah dan cepat.<b> \n</b><br>\n<br><br>",
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CAR LIST</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">TRAVEL PACKAGE</a>",
+                "text": "<b>Matlamat utama kami adalah memberi khidmat yang terbaik dengan kadar sewaan yang pasti mampu bagi semua golongan. Kami juga sentiasa memastikan keadaan kereta yang anda sewa dalam keadaan bersih, selesa dan selamat untuk pemanduan. Malah proses sewaan dengan kami juga berjalan dengan mudah dan cepat. \n</b><br>\n<br><br>",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>",
+                "overlay": true,
+                "overlayOpacity": "0.5",
+                "overlayColor": "#ffffff"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/mbr-1620x1080.jpg",
+                "active": true,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "title": "MATLAMAT AMT",
+                "contentAlign": "right",
+                "text": "<b>Matlamat utama kami adalah memberi khidmat yang terbaik dengan kadar sewaan yang pasti mampu bagi semua golongan. Kami juga sentiasa memastikan keadaan kereta yang anda sewa dalam keadaan bersih, selesa dan selamat untuk pemanduan. Malah proses sewaan dengan kami juga berjalan dengan mudah dan cepat. \n</b><br>\n<br><br>",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>",
                 "overlay": true,
                 "overlayOpacity": "0.5",
                 "overlayColor": "#ffffff"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/mbr-3-1620x1080.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
                 "title": "Hubungi Kami Sekarang",
                 "contentAlign": "left",
                 "text": "<b>Kami amat berbesar hati dan mengalu-alukan anda untuk menggunakan perkhidmatan kami. \n<br>\n<br>Sila hubungi kami di talian berikut <br>untuk membuat tempahan. \n<br>Tel : 014-8630141 \n<br>Jumpa di Kuching.</b><br><b>:-)</b><br><b><br></b>",
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CAR LIST</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">TRAVEL PACKAGE</a>",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>",
                 "overlay": true,
                 "overlayOpacity": "0.6",
+                "overlayColor": "#ffffff"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/mbr-1620x1080.jpg",
+                "active": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "title": "MATLAMAT AMT",
+                "contentAlign": "right",
+                "text": "<b>Matlamat utama kami adalah memberi khidmat yang terbaik dengan kadar sewaan yang pasti mampu bagi semua golongan. Kami juga sentiasa memastikan keadaan kereta yang anda sewa dalam keadaan bersih, selesa dan selamat untuk pemanduan. Malah proses sewaan dengan kami juga berjalan dengan mudah dan cepat. \n</b><br>\n<br><br>",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>",
+                "overlay": true,
+                "overlayOpacity": "0.5",
                 "overlayColor": "#ffffff"
               }
             ]
@@ -358,16 +466,15 @@
             "H1": {
               "color": "#000000",
               "text-align": "left",
-              "font-size": "36px"
+              "font-size": "60px"
             },
             "P": {
               "text-align": "left",
-              "color": "#000000",
-              "font-size": "16px"
+              "color": "#000000"
             },
             "B": {
               "color": "#2c2c2c",
-              "font-size": "16px",
+              "font-size": "25px",
               "font-family": "'PT Sans', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans:400,700"
             },
@@ -392,7 +499,7 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/13221164-1010315769036164-4635766494822955108-o-265x208.jpg",
+              "src": "@PROJECT_PATH@/assets/images/c4-588734aa6a22dheader.png-265x261.jpg",
               "class": "mbr-contacts__img mbr-contacts__img--left",
               "width": 265,
               "active": true,
@@ -421,8 +528,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "CONTACT",
-        "order": 4,
-        "footer_custom": "<!-- WhatsHelp.io widget -->\n<script type=\"text/javascript\">\n(function () {\nvar options = {\nwhatsapp: \"+60148630141\", // WhatsApp number\ncall_to_action: \"Whatsapp us now\", // Call to action\nposition: \"right\", // Position may be 'right' or 'left'\n};\nvar proto = document.location.protocol, host = \"whatshelp.io\", url = proto + \"//static.\" + host;\nvar s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';\ns.onload = function () { WhWidgetSendButton.init(host, proto, options); };\nvar x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);\n})();\n</script>\n<!-- /WhatsHelp.io widget -->\n<!--Start of Tawk.to Script-->\n<script type=\"text/javascript\">\nvar Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();\n(function(){\nvar s1=document.createElement(\"script\"),s0=document.getElementsByTagName(\"script\")[0];\ns1.async=true;\ns1.src='https://embed.tawk.to/5b04a9f5d0f6723da57ec812/default';\ns1.charset='UTF-8';\ns1.setAttribute('crossorigin','*');\ns0.parentNode.insertBefore(s1,s0);\n})();\n</script>\n<!--End of Tawk.to Script-->"
+        "order": 4
       },
       "components": [
         {
@@ -449,7 +555,7 @@
             "hamburgerColor": "#c1c1c1"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">ABOUT</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">CONTACT</a></li> ",
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">CARLIST</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\" data-toolbar=\"-mbrBtnMove\">TRAVEL PACKAGE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">TERM AND CONDITION</a></li> ",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">CARLIST</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">TRAVEL PACKAGE</a></li> ",
           "logo": {
             "image": {
               "active": true,
@@ -488,7 +594,7 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/13221164-1010315769036164-4635766494822955108-o-265x208.jpg",
+              "src": "@PROJECT_PATH@/assets/images/c4-588734aa6a22dheader.png-265x261.jpg",
               "class": "mbr-contacts__img mbr-contacts__img--left",
               "width": 265,
               "active": true,
@@ -512,25 +618,62 @@
           "_anchor": "contacts1-k"
         },
         {
+          "loadsvg": "@PROJECT_PATH@/assets/images/loading.svg",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "postToLoad": "1",
+            "facebook": "https://www.facebook.com/amtsarawak",
+            "twitter": "",
+            "google": "afdalmaju@gmail.com",
+            "youtube": "",
             "bgColorRadio": true,
-            "bgColor": "#f0f0f0",
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "bgColor": "#fff",
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/social-feed/feed/assets/comments_bg.jpg",
+            "overlay": true,
+            "overlayColor": "#7e9b9f",
+            "overlayOpacity": 0.6
           },
-          "text": "FOLLOW US",
-          "icons": "<a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-twitter\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><span class=\"mbri-like mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(44, 44, 44);\"></span></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-facebook\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-googleplus\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-youtube\" title=\"YouTube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-instagram\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"socicon socicon-instagram\"></i></a>      ",
+          "alias": "social-feed",
           "_tags": [
-            "Theme"
+            "Extension"
           ],
-          "_name": "social-buttons2",
-          "_anchor": "social-buttons2-19"
+          "_name": "feed",
+          "_anchor": "feed-r"
+        },
+        {
+          "_params": {
+            "token": "5342036335.727bfe1.262162787c3249c6b64379cb6945121e",
+            "showTitle": true,
+            "layoutGridRadio": true,
+            "imagesPerRowGrid": 4,
+            "rows": 2,
+            "showMoreButton": true,
+            "layoutSliderRadio": false,
+            "imagesPerRowSlider": 4,
+            "spacing": 5,
+            "fullWidth": false,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColorRadio": false,
+            "bgColor": "#fafafa",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/instagram-background.jpg",
+            "overlay": false,
+            "overlayColor": "#efefef",
+            "overlayOpacity": 0.6
+          },
+          "title": "Instagram Feed",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-primary display-4\" href=\"#\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-mbrLink\">Show more</a>",
+          "display2": "display-2",
+          "display4": "display-4",
+          "alias": "instagram-feed",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "instagram-feed-block",
+          "_anchor": "instagram-feed-block-s"
         }
       ]
     },
@@ -538,8 +681,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "CAR LIST",
-        "order": 3,
-        "footer_custom": "<!-- WhatsHelp.io widget -->\n<script type=\"text/javascript\">\n(function () {\nvar options = {\nwhatsapp: \"+60148630141\", // WhatsApp number\ncall_to_action: \"Whatsapp us now\", // Call to action\nposition: \"right\", // Position may be 'right' or 'left'\n};\nvar proto = document.location.protocol, host = \"whatshelp.io\", url = proto + \"//static.\" + host;\nvar s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';\ns.onload = function () { WhWidgetSendButton.init(host, proto, options); };\nvar x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);\n})();\n</script>\n<!-- /WhatsHelp.io widget -->\n<!--Start of Tawk.to Script-->\n<script type=\"text/javascript\">\nvar Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();\n(function(){\nvar s1=document.createElement(\"script\"),s0=document.getElementsByTagName(\"script\")[0];\ns1.async=true;\ns1.src='https://embed.tawk.to/5b04a9f5d0f6723da57ec812/default';\ns1.charset='UTF-8';\ns1.setAttribute('crossorigin','*');\ns0.parentNode.insertBefore(s1,s0);\n})();\n</script>\n<!--End of Tawk.to Script-->"
+        "order": 3
       },
       "components": [
         {
@@ -566,7 +708,7 @@
             "hamburgerColor": "#c1c1c1"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">ABOUT</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">CONTACT</a></li> ",
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">CARLIST</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\" data-toolbar=\"-mbrBtnMove\">TRAVEL PACKAGE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">TERM AND CONDITION</a></li> ",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">CARLIST</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">TRAVEL PACKAGE</a></li> ",
           "logo": {
             "image": {
               "active": true,
@@ -1055,8 +1197,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Travel Package",
-        "order": 2,
-        "footer_custom": "<!-- WhatsHelp.io widget -->\n<script type=\"text/javascript\">\n(function () {\nvar options = {\nwhatsapp: \"+60148630141\", // WhatsApp number\ncall_to_action: \"Whatsapp us now\", // Call to action\nposition: \"right\", // Position may be 'right' or 'left'\n};\nvar proto = document.location.protocol, host = \"whatshelp.io\", url = proto + \"//static.\" + host;\nvar s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';\ns.onload = function () { WhWidgetSendButton.init(host, proto, options); };\nvar x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);\n})();\n</script>\n<!-- /WhatsHelp.io widget -->\n<!--Start of Tawk.to Script-->\n<script type=\"text/javascript\">\nvar Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();\n(function(){\nvar s1=document.createElement(\"script\"),s0=document.getElementsByTagName(\"script\")[0];\ns1.async=true;\ns1.src='https://embed.tawk.to/5b04a9f5d0f6723da57ec812/default';\ns1.charset='UTF-8';\ns1.setAttribute('crossorigin','*');\ns0.parentNode.insertBefore(s1,s0);\n})();\n</script>\n<!--End of Tawk.to Script-->"
+        "order": 2
       },
       "components": [
         {
@@ -1083,7 +1224,7 @@
             "hamburgerColor": "#c1c1c1"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">ABOUT</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">CONTACT</a></li> ",
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">CARLIST</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\" data-toolbar=\"-mbrBtnMove\">TRAVEL PACKAGE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">TERM AND CONDITION</a></li> ",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">CARLIST</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">TRAVEL PACKAGE</a></li> ",
           "logo": {
             "image": {
               "active": true,
@@ -1275,7 +1416,7 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/13221164-1010315769036164-4635766494822955108-o-265x208.jpg",
+              "src": "@PROJECT_PATH@/assets/images/c4-588734aa6a22dheader.png-265x261.jpg",
               "class": "mbr-contacts__img mbr-contacts__img--left",
               "width": 265,
               "active": true,
@@ -1304,8 +1445,7 @@
       "settings": {
         "meta_descr": "Website Creator Description",
         "title": "Home 2",
-        "order": 1,
-        "footer_custom": "<!-- WhatsHelp.io widget -->\n<script type=\"text/javascript\">\n(function () {\nvar options = {\nwhatsapp: \"+60148630141\", // WhatsApp number\ncall_to_action: \"Whatsapp us now\", // Call to action\nposition: \"right\", // Position may be 'right' or 'left'\n};\nvar proto = document.location.protocol, host = \"whatshelp.io\", url = proto + \"//static.\" + host;\nvar s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';\ns.onload = function () { WhWidgetSendButton.init(host, proto, options); };\nvar x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);\n})();\n</script>\n<!-- /WhatsHelp.io widget -->\n<!--Start of Tawk.to Script-->\n<script type=\"text/javascript\">\nvar Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();\n(function(){\nvar s1=document.createElement(\"script\"),s0=document.getElementsByTagName(\"script\")[0];\ns1.async=true;\ns1.src='https://embed.tawk.to/5b04a9f5d0f6723da57ec812/default';\ns1.charset='UTF-8';\ns1.setAttribute('crossorigin','*');\ns0.parentNode.insertBefore(s1,s0);\n})();\n</script>\n<!--End of Tawk.to Script-->"
+        "order": 1
       },
       "components": [
         {
@@ -1332,7 +1472,7 @@
             "hamburgerColor": "#c1c1c1"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">ABOUT</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">CONTACT</a></li> ",
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">CARLIST</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\" data-toolbar=\"-mbrBtnMove\">TRAVEL PACKAGE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">TERM AND CONDITION</a></li> ",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">CARLIST</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">TRAVEL PACKAGE</a></li> ",
           "logo": {
             "image": {
               "active": true,
@@ -1349,7 +1489,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"mbr-brand__name text-primary\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">AFDAL MAJU TRANSPORTATION (AMT)</a>",
+          "brand": "<a class=\"mbr-brand__name text-primary\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">AFDAL MAJU TRANSPORTATION (AMT)</a>",
           "_tags": [
             "Theme"
           ],
@@ -1402,7 +1542,7 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/13221164-1010315769036164-4635766494822955108-o-265x208.jpg",
+              "src": "@PROJECT_PATH@/assets/images/c4-588734aa6a22dheader.png-265x261.jpg",
               "class": "mbr-contacts__img mbr-contacts__img--left",
               "width": 265,
               "active": true,
