@@ -1,4 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+
 #menu-0 .mbr-brand__name {
   font-size: 16px;
 }
@@ -7,6 +9,13 @@
 }
 #menu-0 .mbr-navbar__hamburger {
   color: #c1c1c1;
+}
+#header4-4 P {
+  color: #2c2c2c;
+  font-family: 'Oswald', sans-serif;
+}
+#header4-4 H1 {
+  color: #2c2c2c;
 }
 
 #menu-h .mbr-brand__name {
