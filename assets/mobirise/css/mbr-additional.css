@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
-
 #menu-0 .mbr-brand__name {
   font-size: 16px;
 }
@@ -8,20 +7,6 @@
 }
 #menu-0 .mbr-navbar__hamburger {
   color: #c1c1c1;
-}
-#slider-6 H1 {
-  color: #000000;
-  text-align: right;
-  font-size: 60px;
-}
-#slider-6 P {
-  text-align: left;
-  color: #2969b0;
-}
-#slider-6 B {
-  color: #000000;
-  font-size: 23px;
-  font-family: 'PT Sans', sans-serif;
 }
 
 #menu-h .mbr-brand__name {
@@ -36,15 +21,16 @@
 #slider-m H1 {
   color: #000000;
   text-align: left;
-  font-size: 60px;
+  font-size: 36px;
 }
 #slider-m P {
   text-align: left;
   color: #000000;
+  font-size: 16px;
 }
 #slider-m B {
   color: #2c2c2c;
-  font-size: 25px;
+  font-size: 16px;
   font-family: 'PT Sans', sans-serif;
 }
 #slider-m DIV {
@@ -85,4 +71,24 @@
 }
 #menu-11 .mbr-navbar__hamburger {
   color: #c1c1c1;
+}
+#menu-1a .mbr-brand__name {
+  font-size: 16px;
+}
+#menu-1a.mbr-navbar--stuck .mbr-navbar__section {
+  background: #2c2c2c;
+}
+#menu-1a .mbr-navbar__hamburger {
+  color: #c1c1c1;
+}
+#content5-1d .mbr-header .mbr-header__text {
+  text-align: center;
+  color: #fff;
+}
+#content5-1d .mbr-header .mbr-header__subtext {
+  text-align: center;
+  color: #fff;
+}
+#content5-1d .mbr-article {
+  color: #fff;
 }
